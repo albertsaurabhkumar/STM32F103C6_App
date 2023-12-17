@@ -1,0 +1,33 @@
+{
+    "files.associations": {
+        "common.h": "c",
+        "any": "c",
+        "bit": "c",
+        "charconv": "c",
+        "codecvt": "c",
+        "compare": "c",
+        "condition_variable": "c",
+        "cstddef": "c",
+        "forward_list": "c",
+        "list": "c",
+        "string": "c",
+        "optional": "c",
+        "rope": "c",
+        "future": "c",
+        "limits": "c",
+        "memory": "c",
+        "new": "c",
+        "ranges": "c",
+        "functional": "c",
+        "regex": "c",
+        "port.h": "c",
+        "clock.h": "c",
+        "main.h": "c",
+        "gpio.h": "c",
+        "wdog.h": "c"
+    },
+    "cortex-debug.liveWatchRefreshRate": 250,
+    "cortex-debug.JLinkGDBServerPath.windows": "C:/Program Files (x86)/SEGGER/JLink/JLinkGDBServerCL.exe",
+    "cortex-debug.armToolchainPath.windows": "C:/S32_App/tools/CC/gcc-10.3/bin",
+    "cortex-debug.variableUseNaturalFormat": false
+}

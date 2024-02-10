@@ -3,16 +3,16 @@
     "configurations": [
         {
             "cwd": "${workspaceFolder}",
-            "executable": "./build/bin/S32_App.elf",
-            "name": "JDebug",
+            "executable": "./build/bin/STM32F103C6_BL.elf",
+            "name": "ST-Debug_BL",
             "request": "launch",
             "type": "cortex-debug",
-            "device": "S32K144",
-            "interface": "jtag",
+            "device": "STM32F103",
+            "interface": "swd",
             "runToEntryPoint": "Reset_Handler",
             "showDevDebugOutput": "none",
-            "servertype": "jlink",
-            "svdFile": "${workspaceFolder}/tools/S32K144.svd"
+            "servertype": "stlink",
+            "svdFile": "${workspaceFolder}/tools/STM32F103.svd"
         }
     ]
 }

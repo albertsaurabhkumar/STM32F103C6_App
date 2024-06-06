@@ -1,5 +1,5 @@
 /*
-**  Processor: S32K144
+**  Processor: STM32F103
 **  Author: Saurabh Kumar
 **  GCC Version: 12.3
 **  

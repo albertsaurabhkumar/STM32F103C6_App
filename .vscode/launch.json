@@ -3,7 +3,7 @@
     "configurations": [
         {
             "cwd": "${workspaceFolder}",
-            "executable": "./build/bin/STM32F103C6_BL.elf",
+            "executable": "./build/bin/STM32F103C6_APP.elf",
             "name": "ST-Debug_BL",
             "request": "launch",
             "type": "cortex-debug",
